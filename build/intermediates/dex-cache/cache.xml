@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/fawaz/Downloads/MunchZone/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/Users/fawaz/Downloads/MunchZone/app/build/intermediates/pre-dexed/debug/classes-ccdcb62f37ab300be4b1b5e037a35373def23a07.jar" />
+    </item>
+    <item
+        jar="/Users/fawaz/Downloads/MunchZone/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/Users/fawaz/Downloads/MunchZone/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-039a71e8ba1a8f9822e0df22e067d5ccd475c9cc.jar" />
+    </item>
+    <item
+        jar="/Users/fawaz/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/Users/fawaz/Downloads/MunchZone/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-cd8c2091a9ca615380c91e5e2018345286a26338.jar" />
+    </item>
+    <item
+        jar="/Users/fawaz/Downloads/MunchZone/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="/Users/fawaz/Downloads/MunchZone/app/build/intermediates/pre-dexed/debug/classes-d64d549e60d78fe9abc7be3b086d7123d7550db6.jar" />
+    </item>
+
+</items>

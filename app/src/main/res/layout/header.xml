@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:id="@+id/header"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentTop="true"
+      android:addStatesFromChildren="true"
+      android:background="#b7c723"
+      android:clipChildren="false" >
+      
+         
+           <ImageView
+                android:id="@+id/search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+              
+                android:layout_alignParentLeft="true"
+                 android:layout_alignParentStart="true"
+              android:layout_centerVertical="true"
+       
+             android:visibility="gone"
+              
+                android:layout_margin="5dp"
+             
+                android:background="@drawable/back_icon"
+                android:clickable="true" />
+               
+            <AutoCompleteTextView
+                android:id="@+id/AClistview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@drawable/line"
+                android:completionThreshold="1"
+                android:drawableLeft="@drawable/search"
+                android:drawablePadding="1dp"
+                android:drawableStart="@drawable/search"
+                android:ems="10"
+                android:visibility="gone"
+                android:focusable="false"
+                android:layout_toRightOf="@+id/search"
+                android:layout_toEndOf="@+id/search"
+                android:hint="Search by Restaurant, Location and Cuisines"
+                android:imeOptions="actionSearch"
+                android:inputType="textNoSuggestions"
+                android:nextFocusLeft="@id/AClistview"
+                android:nextFocusUp="@id/AClistview"
+                android:paddingLeft="5dp"
+
+                android:singleLine="false"
+                android:textColor="#ffffff"
+                android:textSize="12sp" >
+
+                <requestFocus />
+            </AutoCompleteTextView>
+ <!-- 
+     <ImageView
+android:layout_width="30dp"
+android:layout_height="30dp"
+android:clickable="true"
+android:layout_toLeftOf="@+id/advSearch"
+               android:layout_toStartOf="@+id/advSearch"
+               
+        android:visibility="gone"
+android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+android:background="@android:drawable/ic_menu_search"
+android:id="@+id/search" >
+</ImageView> -->
+ <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_margin="5dp"
+      android:id="@+id/back"
+      android:textColor="#000"
+      android:text="Back"
+     android:layout_alignParentLeft="true"
+     android:textSize="16sp"
+  android:visibility="gone"
+     
+      />   
+  
+ 
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_margin="5dp"
+      android:id="@+id/header_text"
+      android:textColor="#000"
+     android:layout_centerVertical="true"
+      android:layout_centerInParent="true"
+      android:textStyle="bold"
+      android:textSize="20sp"
+      android:gravity="center"
+           android:visibility="gone"
+      
+     android:text="Restaurant List"
+     />
+      
+        <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_margin="5dp"
+      android:id="@+id/next"
+      android:textColor="#000"
+      android:text="Next"
+      android:gravity="center"
+      android:textSize="16sp"
+      android:layout_alignParentRight="true"
+       android:visibility="gone"
+     
+/>
+
+                <ImageView
+                android:id="@+id/searchList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                  android:layout_toLeftOf="@+id/advSearch"
+                  android:layout_toStartOf="@+id/advSearch"  
+                  
+                 android:scaleType="centerCrop"
+                android:background="@drawable/search"
+                android:clickable="true"
+              android:visibility="gone"
+      
+                />
+ <!--  android:layout_toRightOf="@+id/header_text"
+                  android:layout_toEndOf="@+id/header_text"  -->
+                <ImageButton
+                    android:id="@+id/advSearch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"                  
+                      android:layout_marginTop="15dp"
+                          android:layout_marginBottom="15dp"
+                           android:layout_marginRight="10dp"
+                           android:layout_marginEnd="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginStart="10dp"
+                         android:visibility="gone"
+      
+                    android:background="@mipmap/advancesearch"
+                    android:clickable="true" />
+   
+  </RelativeLayout>
+

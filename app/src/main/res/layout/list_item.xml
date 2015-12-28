@@ -1,0 +1,125 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     android:paddingBottom="20dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="20dp"
+   
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+   		android:id="@+id/RelativeLayout01"
+   >
+     
+    <TextView
+        android:id="@+id/rest_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+		android:paddingLeft="5dp"
+  		android:paddingRight="5dp"
+   android:textColor="#000000"
+       android:text="RestName"
+       android:textSize="18sp"
+
+       android:textStyle="bold"
+        />
+  <TextView
+        android:id="@+id/rest_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:visibility="invisible"
+         />
+ <!--  <TextView
+        android:id="@+id/timingTxt"
+         android:text="Timing:"
+          android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textStyle="italic|bold"
+        android:layout_alignLeft="@+id/rest_name"
+        android:layout_alignStart="@+id/rest_name"
+        android:layout_below="@+id/rest_name" />
+   <TextView
+        android:id="@+id/rest_timing"
+         android:text="12 to 13 hrs"
+          android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_toRightOf="@+id/timingTxt"
+        android:layout_toEndOf="@+id/timingTxt"
+        android:layout_below="@+id/rest_name" /> -->
+
+     <TextView
+         android:id="@+id/rest_location"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/rest_name"
+         android:layout_below="@+id/rest_name"
+         android:paddingLeft="5dp"
+         android:paddingRight="5dp"
+         android:text="Location" />
+
+    <TextView
+        android:id="@+id/rest_cuisines"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/rest_name"
+        android:layout_below="@+id/rest_location"
+        android:paddingTop="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:singleLine="true"
+        android:text="Cuisines" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_below="@+id/RelativeLayout01">
+  <!--   <TextView
+          android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hi"
+          />
+    <TextView
+          android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hi2"
+             /> -->
+  <!--  
+   <ImageView
+       android:id="@+id/viewmenu"
+       android:tag="Image1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignRight="@+id/rest_name"
+       android:layout_alignParentRight="true"
+       android:layout_alignEnd="@+id/rest_name"
+       android:layout_alignParentTop="true"
+       android:background="@drawable/arrow" />
+       --> 
+</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="beforeDescendants"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:gravity="center|right"
+    android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundborder"
+            android:descendantFocusability="beforeDescendants"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center|center_vertical"
+            android:orientation="horizontal" >
+
+<!-- android:focusableInTouchMode="true"
+android:focusable="true"
+android:windowSoftInputMode="stateAlwaysVisible" -->
+<!--  <ImageView
+android:layout_width="40dp"
+android:layout_height="40dp"
+android:padding="5dp"
+android:background="@android:drawable/ic_menu_search"
+android:id="@+id/search" /> -->
+<!-- >
+            <AutoCompleteTextView
+                android:id="@+id/AClistview"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:backgroundTint="#ffffff"
+                android:completionThreshold="3"
+                android:drawablePadding="1dp"
+                android:ems="10"
+                android:focusable="false"
+                android:hint="Search by Restaurant Name, Location and Cuisines"
+                android:imeOptions="actionSearch"
+                android:inputType="textNoSuggestions"
+                android:nextFocusLeft="@id/AClistview"
+                android:nextFocusUp="@id/AClistview"
+                android:paddingLeft="5dp"
+                android:paddingStart="5dp"
+               
+                android:textSize="12sp" />
+
+            <ImageView
+android:layout_width="30dp"
+android:layout_height="30dp"
+android:clickable="true"
+
+android:background="@android:drawable/ic_menu_search"
+android:id="@+id/search" /> 
+
+            -->
+            
+              <!--  android:drawableEnd="@android:drawable/ic_menu_search"
+               android:drawableRight="@android:drawable/ic_menu_search" 
+<ImageView
+android:layout_width="40dp"
+android:layout_height="40dp"
+android:padding="5dp"
+android:background="@android:drawable/ic_menu_search"
+android:id="@+id/search" />-->
+</LinearLayout>
+<LinearLayout 
+   android:layout_width="match_parent" 
+   android:layout_height="match_parent" 
+   android:orientation="vertical"
+   >
+
+  <ListView 
+     android:id="@+id/Postlistview"
+     android:layout_width="match_parent" 
+     android:layout_height="0dip" 
+     android:layout_weight="1"
+      android:background="#ffffff"
+     
+      android:dividerHeight="1dp"
+      android:divider="#1B8D11" />
+  <TextView 
+      android:id="@+id/load"
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:text="Loading..."
+      android:visibility="gone"
+      android:layout_gravity="center"
+      android:gravity="center"/>
+<!--      android:fadeScrollbars="false"
+     android:scrollbars="vertical"
+     
+    
+     /> -->
+  <!-- android:listSelector = "@drawable/selector_list_item" -->
+</LinearLayout>
+</LinearLayout>

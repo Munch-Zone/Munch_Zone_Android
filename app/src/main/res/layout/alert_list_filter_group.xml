@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="8dp" 
+    android:background="#c3c3c3">
+
+
+    <TextView
+        android:id="@+id/lblListHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_centerVertical="true"
+        android:text="Cuisines"
+        android:textSize="20sp"
+        android:paddingLeft="20dp"
+        android:textColor="#ffffff" />
+    
+    <TextView
+        android:id="@+id/all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      android:layout_toLeftOf="@+id/none"
+      android:layout_toStartOf="@+id/none"
+        android:textSize="16sp"
+        android:text="all  |  "
+        android:paddingLeft="20dp"
+         android:layout_centerVertical="true"
+        android:clickable="true"
+        android:textColor="#ffffff" />
+    <TextView
+        android:id="@+id/none"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:clickable="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+              android:text="none"
+          android:textSize="16sp"
+        android:layout_centerVertical="true"
+        android:textColor="#ffffff" />
+<!--   <ImageView android:id="@+id/checkListGroupItemImage"
+ android:layout_alignRight="@+id/lblListHeader"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentEnd="true"
+       android:layout_alignEnd="@+id/lblListHeader"
+           android:focusable="false"
+          android:layout_width="50dp"
+android:layout_height="50dp"
+ android:layout_gravity="end"
+               android:gravity="end"
+           android:src="@drawable/checked"  />-->
+</RelativeLayout>

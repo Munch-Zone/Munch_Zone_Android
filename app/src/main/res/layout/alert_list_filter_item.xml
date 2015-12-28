@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="horizontal" >
+
+     <TextView
+        android:id="@+id/checkListItem"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+          android:paddingTop="10dp"
+        android:paddingLeft="15dp"
+        android:paddingStart="15dp"
+        android:textColor="#000000"
+     android:text="RESTAURANT FILTER"
+      android:layout_centerVertical="true"
+     android:textSize="16sp"
+         />
+     <ImageView android:id="@+id/checkListItemImage"
+ android:layout_alignRight="@+id/checkListItem"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentEnd="true"
+       android:layout_alignEnd="@+id/checkListItem"
+           android:focusable="false"
+            android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingEnd="20dp"
+          android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+ android:layout_gravity="end"
+               android:gravity="end"
+           android:src="@drawable/checked"  /> 
+     
+    <!--  <CheckBox android:id="@+id/checkListItemCheck"
+ android:layout_alignRight="@+id/checkListItem"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentEnd="true"
+       android:layout_alignEnd="@+id/checkListItem"
+           android:focusable="false"
+            android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingEnd="20dp"
+          android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+ android:layout_gravity="end"
+               android:gravity="end"
+               android:checked="true"
+            />    -->
+
+                  <!--  android:button="@drawable/custom_checkbox_design" --> 
+                 
+</RelativeLayout>

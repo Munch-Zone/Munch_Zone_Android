@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" > 
+    <include layout="@layout/header" />
+  <include layout="@layout/footer" />
+<!--  <com.example.munchzone.CustomDrawerLayout  -->
+     <android.support.v4.widget.DrawerLayout
+  
+    android:id="@+id/right_drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:layout_above="@id/footer"
+   
+    android:layout_below="@id/header">
+    <FrameLayout
+        android:id="@+id/main_content"
+       android:color="#EE2222"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+       
+        </FrameLayout>
+    <ExpandableListView
+                android:id="@+id/rightLvExp"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                 android:layout_gravity="end"
+                 android:background="#99ca3c"
+                android:cacheColorHint="#99ca3c"/> 
+                </android.support.v4.widget.DrawerLayout>
+<!--  </com.example.munchzone.CustomDrawerLayout> -->
+ 
+ </RelativeLayout>
